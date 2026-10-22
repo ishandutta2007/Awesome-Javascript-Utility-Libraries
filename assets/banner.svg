@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <!-- Dynamic Flow Line Gradient -->
+    <linearGradient id="pulse-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 46px;
+        fill: #f8fafc;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        fill: #94a3b8;
+      }
+      .tag-text {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #38bdf8;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+
+      /* Animated SVG Elements (Subtle ambient movement in background) */
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(2deg); }
+      }
+      @keyframes floatFast {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(10px) rotate(-3deg); }
+      }
+      @keyframes pulseBeam {
+        0% { stroke-dashoffset: 600; opacity: 0.3; }
+        50% { opacity: 0.85; }
+        100% { stroke-dashoffset: 0; opacity: 0.3; }
+      }
+      @keyframes radarRotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .flow-beam-1 {
+        stroke-dasharray: 200, 400;
+        animation: pulseBeam 7s ease-in-out infinite;
+      }
+      .flow-beam-2 {
+        stroke-dasharray: 180, 360;
+        animation: pulseBeam 9s ease-in-out infinite reverse;
+      }
+      .floating-node-1 {
+        animation: floatSlow 6s ease-in-out infinite;
+        transform-origin: 1000px 80px;
+      }
+      .floating-node-2 {
+        animation: floatFast 7s ease-in-out infinite;
+        transform-origin: 1050px 240px;
+      }
+      .floating-node-3 {
+        animation: floatSlow 8s ease-in-out infinite reverse;
+        transform-origin: 880px 160px;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="340" rx="16" fill="url(#bg-grad)" />
+  <rect width="1198" height="338" x="1" y="1" rx="15" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- Background Decorative Grid Dots -->
+  <g fill="#334155" opacity="0.35">
+    <circle cx="80" cy="50" r="1.5" /><circle cx="140" cy="50" r="1.5" /><circle cx="200" cy="50" r="1.5" />
+    <circle cx="80" cy="110" r="1.5" /><circle cx="140" cy="110" r="1.5" /><circle cx="200" cy="110" r="1.5" />
+    <circle cx="80" cy="170" r="1.5" /><circle cx="140" cy="170" r="1.5" /><circle cx="200" cy="170" r="1.5" />
+    <circle cx="80" cy="230" r="1.5" /><circle cx="140" cy="230" r="1.5" /><circle cx="200" cy="230" r="1.5" />
+    <circle cx="80" cy="290" r="1.5" /><circle cx="140" cy="290" r="1.5" /><circle cx="200" cy="290" r="1.5" />
+  </g>
+
+  <!-- Ambient Dynamic Flow Lines (Background Layer) -->
+  <path d="M 650 50 Q 820 120, 950 70 T 1150 130" fill="none" stroke="url(#pulse-grad-1)" stroke-width="3" class="flow-beam-1" />
+  <path d="M 680 300 Q 860 190, 1000 250 T 1160 210" fill="none" stroke="url(#accent-grad)" stroke-width="2.5" opacity="0.5" class="flow-beam-2" />
+
+  <!-- Ambient Floating Graphic Cards / Pills (Strictly in Background Right-side) -->
+  <g class="floating-node-1" opacity="0.9">
+    <rect x="940" y="55" width="180" height="48" rx="24" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" />
+    <circle cx="965" cy="79" r="8" fill="#3b82f6" filter="url(#glow)" />
+    <text x="985" y="84" class="badge-text">Lodash · 61k ★</text>
+  </g>
+
+  <g class="floating-node-3" opacity="0.85">
+    <rect x="850" y="140" width="190" height="48" rx="24" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5" />
+    <circle cx="875" cy="164" r="8" fill="#8b5cf6" filter="url(#glow)" />
+    <text x="895" y="169" class="badge-text">Ramda · Functional</text>
+  </g>
+
+  <g class="floating-node-2" opacity="0.9">
+    <rect x="920" y="225" width="200" height="48" rx="24" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+    <circle cx="945" cy="249" r="8" fill="#10b981" filter="url(#glow)" />
+    <text x="965" y="254" class="badge-text">es-toolkit · Fast &amp; Tiny</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header, Pill & Subtitle (Always Clear and Unobstructed) -->
+  <!-- Top Category Tag -->
+  <g transform="translate(80, 60)">
+    <rect width="260" height="32" rx="16" fill="#0284c7" fill-opacity="0.15" stroke="#38bdf8" stroke-width="1" />
+    <circle cx="20" cy="16" r="4.5" fill="#38bdf8" />
+    <text x="34" y="21" class="tag-text">CURATED JAVASCRIPT TOOLKIT</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(80, 140)">
+    <text class="title-text">Awesome JavaScript</text>
+    <text y="52" class="title-text" fill="url(#accent-grad)">Utility Libraries ⚡</text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="80" y="250" class="subtitle-text">
+    Modular Helpers, Functional Programming, Immutability &amp; Developer Tools
+  </text>
+
+  <!-- Ecosystem Highlights Bar -->
+  <g transform="translate(80, 275)" opacity="0.8">
+    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" fill="#64748b" font-weight="600">
+      ⚡ Lodash · Day.js · Moment · date-fns · Immutable · Immer · Underscore · Ramda · Math.js · es-toolkit
+    </text>
+  </g>
+</svg>

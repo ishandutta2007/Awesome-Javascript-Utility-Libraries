@@ -1,46 +1,58 @@
-# Awesome-Javascript-Utility-Libraries
+# ⚡ Awesome JavaScript Utility Libraries
 
-## Top JavaScript Utility Libraries Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome JavaScript Utility Libraries Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Javascript-Utility-Libraries/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Javascript-Utility-Libraries?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Javascript-Utility-Libraries/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Javascript-Utility-Libraries?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Javascript-Utility-Libraries/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🚀 The Ultimate JavaScript Utility Libraries Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+> **A curated collection of modern JavaScript utility libraries, functional programming toolkits, date manipulation helpers, immutable state managers, and enterprise developer SaaS platforms.**
 
-*Focused on Functional Helpers, Data Manipulation & Self-Hosted Utility Toolkits*  
+*Last updated: October 2026*
 
-**Last updated: October 2026**
+---
 
+## 📖 Overview & SEO Summary
 
+Looking for the best **JavaScript utility libraries** to optimize your web development workflow and boost frontend performance? Whether you need modular helpers like **Lodash** and **es-toolkit**, functional data composition with **Ramda**, lightweight date parsing using **Day.js** and **date-fns**, or state immutability via **Immer** and **Immutable.js**, this comprehensive guide tracks the most reliable, battle-tested solutions in the JS/TS ecosystem.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **JavaScript Utility Libraries**. These tools provide battle-tested implementations of common programming patterns—array and object manipulation, functional composition, immutability, math operations, and feature detection—so developers don't reinvent the same helpers in every project.
+Key utility patterns covered:
+- 🧩 **Array & Object Manipulation**: Modular data transformation, deep cloning, and property traversal.
+- 🔄 **Functional Programming (FP)**: Currying, point-free pipelines, and functional composition.
+- 🛡️ **Immutable State Management**: Structural sharing and mutation-free state updates for React, Redux, and modern frameworks.
+- ⏱️ **Date & Time Calculations**: Zero-dependency timezone math, ISO parsing, and human-friendly formatting.
+- 📐 **Mathematics & Computation**: Symbolic calculation, arbitrary-precision arithmetic, and matrix operations.
+- 🌐 **Developer Infrastructure & SaaS**: Real-time error monitoring, edge execution, API mocking, and automated vulnerability scanning.
 
+---
 
+## 📑 Table of Contents
 
-**Examples** include Lodash, Ramda, Underscore.js, Immutable.js, Math.js, Sugar.js, Modernizr, Mout, Micro-dash, and Just (the category leaders).
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding bundle bloat, and choosing the right abstraction level for your codebase. The open-source landscape is anchored by **Lodash** (the modular standard with 129M+ weekly downloads), **Ramda** (the functional-first alternative with auto-currying), and **Underscore** (the original utility belt), with **Immutable.js** serving persistent data structures, **Math.js** handling advanced mathematics, and **Just** offering a dependency-free, single-function-per-package philosophy.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global web developer utilities and edge content delivery network (CDN) sector is estimated at **$27 billion to $37 billion**, projected to surpass $50+ billion over the next decade. The sector features a **dual market structure**: heavily concentrated at the global core edge infrastructure layer dominated by top hyperscalers and network providers, yet highly fragmented across specialized developer productivity, API tooling, search, and security utilities where agile, developer-first platforms compete vigorously.
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS / Hosted Platforms
 
 | Platform | Category | Scale / Valuation | Pricing (Starting Tier) | Free Tier Limit |
 | :--- | :--- | :--- | :--- | :--- |
@@ -54,118 +66,146 @@ The global web developer utilities and edge content delivery network (CDN) secto
 | **BunnyCDN (bunny.net)** | Edge Caching & Content Delivery | Bootstrapped Indie / ~$20M ARR | $1.00/month minimum account spend ($0.01/GB standard edge bandwidth) | 14-day free trial with up to 1 TB of traffic / $50 usage credit |
 | **APIVerve** | Cloud Math & Developer Utility API | Bootstrapped / <$5M ARR | $9.99/month (Basic plan, ~100k requests) | 200 requests/month forever |
 
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Lodash](https://github.com/lodash/lodash)**  
-
-  **The modular standard.** 61.2k GitHub stars, **129.1M weekly downloads** . Modular architecture allows importing only what you need (`lodash/debounce` vs. the full `lodash` bundle). **Strengths**: the broadest collection of well-tested utilities, consistent API, and deep integration across the ecosystem. **Trade-offs**: even modular imports can be larger than modern alternatives; some functions have subtle edge-case behaviors that surprise developers. Best for teams that want a proven, comprehensive utility belt with the widest possible function coverage.
-
-
-
-- **[Ramda](https://github.com/ramda/ramda)**  
-
-  **The functional-first alternative.** 23.8k GitHub stars, **44.9M monthly downloads** . **Key differentiators**: data-last currying by default (enables point-free composition), immutability-focused, and a clean functional API (`pipe`, `compose`, `curry`). **Trade-offs**: the data-last convention inverts Lodash's argument order, requiring a mental shift; smaller ecosystem of companion libraries. Best for functional programming enthusiasts and teams building pipelines where composition is the primary pattern.
-
-
-
-- **[Underscore.js](https://github.com/jashkenas/underscore)**  
-
-  **The original utility belt.** 27.3k GitHub stars, **28.8M weekly downloads** . Created by Jeremy Ashkenas (Backbone.js), it pioneered the `_` namespace and functional helpers. **Strengths**: stable, minimal, and battle-tested for over a decade. **Trade-offs**: largely superseded by Lodash (which is a drop-in replacement with more functions and better performance); lacks modern functional composition helpers. Best for legacy projects already using it and minimalists who want the original.
-
-
-
-- **[Immutable.js](https://github.com/immutable-js/immutable-js)**  
-
-  **Persistent data structures.** 33.1k GitHub stars, **43.0M weekly downloads** . Provides `Map`, `List`, `Set`, and `Record` with structural sharing—mutations create new references without copying the entire structure. **Strengths**: excellent for React/Redux state management where reference equality checks drive re-renders; predictable performance characteristics. **Trade-offs**: requires converting to/from native JS objects; adds a mental model layer; React's modern hooks and Immer reduce the need for it. Best for applications with deeply nested state where immutability guarantees matter.
-
-
-
-- **[Math.js](https://github.com/josdejong/mathjs)**  
-
-  **The advanced math library.** 15.1k GitHub stars, **3.3M weekly downloads** . Supports expression parsing, matrices, units, complex numbers, fractions, and arbitrary-precision arithmetic. **Strengths**: the only utility library in this list with a full expression parser and unit system. **Trade-offs**: larger bundle size; overkill for simple arithmetic. Best for scientific computing, graphing calculators, and applications requiring units or symbolic math.
-
-
-
-- **[Sugar.js](https://github.com/andrewplummer/Sugar)**  
-
-  **The native prototype extender.** ~4.5k GitHub stars . Extends native objects (`Array.prototype`, `String.prototype`) with chainable methods. **Trade-offs**: modifying native prototypes is considered harmful in shared codebases; not recommended for libraries or code that must coexist with others. Best for isolated applications and developers who prefer `[1,2,3].sum()` over `_.sum([1,2,3])`.
-
-
-
-- **[Modernizr](https://github.com/Modernizr/Modernizr)**  
-
-  **The feature detection standard.** 25.6k GitHub stars, **214K monthly downloads** . Detects HTML5 and CSS3 feature support in the browser, generating a custom build with only the tests you need. **Strengths**: indispensable for progressive enhancement and graceful degradation. **Trade-offs**: build-step required to generate the detection script; modern browsers have narrowed the gap in feature support. Best for applications that must support varied browser capabilities with targeted polyfills.
-
-
-
-- **[Mout](https://github.com/mout/mout)**  
-
-  **The modular alternative.** 1.3k GitHub stars, **1.4M monthly downloads** . AMD/CommonJS-compatible modular utilities, designed as a lighter alternative to Lodash. **Status concern**: OpenSSF scorecard shows **0 commits in 90 days** and 0/10 maintenance score . Best for existing projects that already depend on it; evaluate alternatives for new work.
-
-
-
-- **[Micro-dash](https://github.com/s-libs/micro-dash)**  
-
-  **The bundle-size-focused Lodash subset.** Provides simplified implementations of popular Lodash functions with dramatically reduced payloads (e.g., `map` is 419 bytes vs. Lodash's 14,219 bytes) . **Trade-offs**: no iteratee shorthand, no special handling of edge cases (inherited properties, symbol keys), assumes modern environments. Best for bundle-sensitive applications that only need a handful of Lodash functions and accept simplified behavior.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Just** — A collection of dependency-free, single-function packages (`just-clone`, `just-compare`, `just-safe-set`). Each function does one thing well, with no dependencies and TypeScript types included. Best for developers who want to cherry-pick individual helpers without a monolithic library .
-
-- **Radash** — A modern Lodash alternative with TypeScript-first design, tree-shakeable, and a functional API. Best for TypeScript teams wanting a fresh, actively maintained utility library.
-
-- **es-toolkit** — A modern Lodash-compatible library with better tree-shaking and smaller bundles. Best for teams migrating from Lodash that want smaller output.
-
-- **Frameworks for building custom systems**: Use **Lodash** for the broadest coverage and ecosystem compatibility. Use **Ramda** when functional composition is central to your architecture. Use **Immutable.js** for nested state where reference equality drives rendering. Use **es-toolkit** or **Micro-dash** when bundle size is the primary constraint. Use **Just** when you only need a handful of specific utilities and want zero dependencies.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Utility libraries are increasingly optional**: native JavaScript has absorbed many Lodash functions (`Array.prototype.map`, `Object.assign`, `Array.from`), and modern frameworks provide their own helpers. Evaluate whether you actually need a utility library before adding one to your bundle.
-
-- **Prototype modification is risky**: Sugar.js extends native prototypes, which can cause conflicts with other libraries and unexpected behavior in shared codebases. Avoid in libraries and code you don't fully control.
-
-- **Mout's maintenance has stalled**: 0 commits in 90 days and a 0/10 OpenSSF maintenance score suggest it should not be selected for new projects .
-
-- **Micro-dash is not a drop-in Lodash replacement**: it intentionally omits iteratee shorthands and edge-case handling to achieve smaller sizes. Verify behavior compatibility before migrating .
-
-
+---
+
+## 🛠️ Open-Source GitHub Projects
+
+*Ranked in descending order by GitHub Stars ⭐. Star badges link directly to each project's stargazers page.*
+
+1. ### **[Lodash](https://github.com/lodash/lodash)** [![GitHub stars](https://img.shields.io/github/stars/lodash/lodash?style=social&color=white)](https://github.com/lodash/lodash/stargazers)
+   - **Focus**: The universal modular standard for JavaScript/TypeScript data manipulation.
+   - **Highlights**: Over 61,000 stars and 129M+ weekly downloads. Provides deep object cloning, throttling, debouncing, collection grouping, and safe property traversal.
+   - **Trade-offs**: Importing entire bundles without tree-shaking can add unwanted weight; modern engines' native methods have replaced several basic functions.
+
+2. ### **[Day.js](https://github.com/iamkun/dayjs)** [![GitHub stars](https://img.shields.io/github/stars/iamkun/dayjs?style=social&color=white)](https://github.com/iamkun/dayjs/stargazers)
+   - **Focus**: Minimalist 2KB date and time manipulation utility with Moment-compatible API.
+   - **Highlights**: Extremely fast, immutable by default, and supports a rich plugin system for duration, relative time, and timezone calculations.
+   - **Trade-offs**: Complex timezone and calendar edge cases require separate plugin configurations.
+
+3. ### **[Moment.js](https://github.com/moment/moment)** [![GitHub stars](https://img.shields.io/github/stars/moment/moment?style=social&color=white)](https://github.com/moment/moment/stargazers)
+   - **Focus**: The foundational date-time parsing, formatting, and validation library.
+   - **Highlights**: Deeply embedded legacy standard with massive ecosystem compatibility.
+   - **Trade-offs**: Now in maintenance mode; mutable data structures and larger bundle weight make Day.js or date-fns preferred for new greenfield projects.
+
+4. ### **[date-fns](https://github.com/date-fns/date-fns)** [![GitHub stars](https://img.shields.io/github/stars/date-fns/date-fns?style=social&color=white)](https://github.com/date-fns/date-fns/stargazers)
+   - **Focus**: Modular, functional date utility belt (the "Lodash of dates").
+   - **Highlights**: Pure functions, fully tree-shakeable, TypeScript-native, and operates on native JavaScript Date instances.
+   - **Trade-offs**: Function imports can proliferate across files if not centralized.
+
+5. ### **[Immutable.js](https://github.com/immutable-js/immutable-js)** [![GitHub stars](https://img.shields.io/github/stars/immutable-js/immutable-js?style=social&color=white)](https://github.com/immutable-js/immutable-js/stargazers)
+   - **Focus**: Persistent, high-performance immutable data collections.
+   - **Highlights**: Provides `Map`, `List`, `Set`, and `Record` using structural sharing to eliminate deep copies and maximize reference-equality checks.
+   - **Trade-offs**: Requires explicit conversions (`toJS()`) to work with plain JavaScript objects and third-party UI libraries.
+
+6. ### **[Immer](https://github.com/immerjs/immer)** [![GitHub stars](https://img.shields.io/github/stars/immerjs/immer?style=social&color=white)](https://github.com/immerjs/immer/stargazers)
+   - **Focus**: Create immutable state simply by mutating a draft state proxy.
+   - **Highlights**: Powers Redux Toolkit; allows developers to write standard mutating syntax (`draft.user.name = "new"`) while safely outputting a completely frozen, structurally shared next state.
+   - **Trade-offs**: Small runtime proxy overhead compared to manual structural copying.
+
+7. ### **[Underscore.js](https://github.com/jashkenas/underscore)** [![GitHub stars](https://img.shields.io/github/stars/jashkenas/underscore?style=social&color=white)](https://github.com/jashkenas/underscore/stargazers)
+   - **Focus**: The pioneer utility belt for functional helpers in JavaScript.
+   - **Highlights**: Created by Jeremy Ashkenas; stabilized the functional programming vocabulary for web applications for over a decade.
+   - **Trade-offs**: Mostly superseded by Lodash and native ECMAScript syntax.
+
+8. ### **[Modernizr](https://github.com/Modernizr/Modernizr)** [![GitHub stars](https://img.shields.io/github/stars/Modernizr/Modernizr?style=social&color=white)](https://github.com/Modernizr/Modernizr/stargazers)
+   - **Focus**: Browser feature detection standard for HTML5, CSS3, and ES APIs.
+   - **Highlights**: Enables graceful degradation and progressive enhancement through custom-tailored detection builds.
+   - **Trade-offs**: Narrower utility as modern evergreen browsers achieve strong web-standards alignment.
+
+9. ### **[Ramda](https://github.com/ramda/ramda)** [![GitHub stars](https://img.shields.io/github/stars/ramda/ramda?style=social&color=white)](https://github.com/ramda/ramda/stargazers)
+   - **Focus**: Practical functional programming designed specifically for composition pipelines.
+   - **Highlights**: Auto-curried functions, data-last argument conventions, and zero mutation guarantees.
+   - **Trade-offs**: Inverse parameter order relative to standard JS methods requires an intentional learning curve.
+
+10. ### **[validator.js](https://github.com/validatorjs/validator.js)** [![GitHub stars](https://img.shields.io/github/stars/validatorjs/validator.js?style=social&color=white)](https://github.com/validatorjs/validator.js/stargazers)
+    - **Focus**: Robust string validation, sanitization, and format verification.
+    - **Highlights**: Exhaustive checks for emails, UUIDs, IP addresses, credit cards, dates, and XSS sanitization.
+    - **Trade-offs**: String-specific focus; complex schema validation typically pairs with Zod or Yup.
+
+11. ### **[Chalk](https://github.com/chalk/chalk)** [![GitHub stars](https://img.shields.io/github/stars/chalk/chalk?style=social&color=white)](https://github.com/chalk/chalk/stargazers)
+    - **Focus**: Terminal string styling, ANSI coloring, and CLI formatting utility.
+    - **Highlights**: High performance, clean chainable API, automatically detects terminal color support (Truecolor, 256 colors).
+    - **Trade-offs**: Targeted primarily at Node.js and CLI runtimes.
+
+12. ### **[Math.js](https://github.com/josdejong/mathjs)** [![GitHub stars](https://img.shields.io/github/stars/josdejong/mathjs?style=social&color=white)](https://github.com/josdejong/mathjs/stargazers)
+    - **Focus**: Advanced mathematical computing, symbolic parser, and unit system.
+    - **Highlights**: Comprehensive matrix operations, complex numbers, arbitrary-precision decimals, and algebraic expression evaluation.
+    - **Trade-offs**: Larger bundle footprint; suited for scientific or data-intensive applications rather than basic arithmetic.
+
+13. ### **[es-toolkit](https://github.com/toss/es-toolkit)** [![GitHub stars](https://img.shields.io/github/stars/toss/es-toolkit?style=social&color=white)](https://github.com/toss/es-toolkit/stargazers)
+    - **Focus**: State-of-the-art modern JavaScript utility library (2-3x faster, up to 97% smaller than Lodash).
+    - **Highlights**: Created by Toss; built from scratch with TypeScript, fully tree-shakeable, and includes a built-in Lodash migration compatibility layer.
+    - **Trade-offs**: Newer library in the ecosystem, rapidly growing adoption.
+
+14. ### **[Just](https://github.com/angus-c/just)** [![GitHub stars](https://img.shields.io/github/stars/angus-c/just?style=social&color=white)](https://github.com/angus-c/just/stargazers)
+    - **Focus**: Zero-dependency, single-function modular packages (`just-clone`, `just-safe-get`, `just-debounce`).
+    - **Highlights**: Cherry-pick exactly the individual helpers you need without bundling monolithic suites.
+    - **Trade-offs**: Managing multiple npm packages in `package.json` rather than a unified namespace.
+
+15. ### **[Radash](https://github.com/sodiray/radash)** [![GitHub stars](https://img.shields.io/github/stars/sodiray/radash?style=social&color=white)](https://github.com/sodiray/radash/stargazers)
+    - **Focus**: Modern, typed functional utilities designed for TypeScript developer ergonomics.
+    - **Highlights**: Replaces legacy Lodash patterns with clean async utilities (`retry`, `defer`, `parallel`), object mapping, and array tooling.
+    - **Trade-offs**: Focused on modern runtime environments and ES2020+.
+
+16. ### **[Sugar.js](https://github.com/andrewplummer/Sugar)** [![GitHub stars](https://img.shields.io/github/stars/andrewplummer/Sugar?style=social&color=white)](https://github.com/andrewplummer/Sugar/stargazers)
+    - **Focus**: Intuitive native prototype helper extensions for Arrays, Objects, and Dates.
+    - **Highlights**: Fluent, chainable syntax allowing direct method invocation on primitives.
+    - **Trade-offs**: Native prototype mutation can conflict with other third-party dependencies in large shared codebases.
+
+17. ### **[p-limit](https://github.com/sindresorhus/p-limit)** [![GitHub stars](https://img.shields.io/github/stars/sindresorhus/p-limit?style=social&color=white)](https://github.com/sindresorhus/p-limit/stargazers)
+    - **Focus**: Async and Promise concurrency throttling utility.
+    - **Highlights**: Crucial utility for throttling HTTP requests, database transactions, and background tasks to prevent rate-limiting and resource exhaustion.
+    - **Trade-offs**: Hyper-focused utility for promise concurrency.
+
+18. ### **[Memoizee](https://github.com/medikoo/memoizee)** [![GitHub stars](https://img.shields.io/github/stars/medikoo/memoizee?style=social&color=white)](https://github.com/medikoo/memoizee/stargazers)
+    - **Focus**: Complete, robust memoization utility for JavaScript functions.
+    - **Highlights**: Supports async functions, LRU caching, TTL expiration, custom serializers, and multi-argument caching.
+    - **Trade-offs**: Requires memory management tuning for applications with massive key cardinality.
+
+19. ### **[Mout](https://github.com/mout/mout)** [![GitHub stars](https://img.shields.io/github/stars/mout/mout?style=social&color=white)](https://github.com/mout/mout/stargazers)
+    - **Focus**: Modular JavaScript utilities adhering to CommonJS and AMD standards.
+    - **Highlights**: Early pioneer of modular utility imports without prototype pollution.
+    - **Trade-offs**: Stalled maintenance status; recommended only for legacy maintenance.
+
+20. ### **[micro-dash](https://github.com/simontonsoftware/s-libs)** [![GitHub stars](https://img.shields.io/github/stars/simontonsoftware/s-libs?style=social&color=white)](https://github.com/simontonsoftware/s-libs/stargazers)
+    - **Focus**: Extreme bundle-size-focused Lodash alternative (part of `@s-libs`).
+    - **Highlights**: Drops bundle footprints by up to 95% while keeping standard Lodash function signatures.
+    - **Trade-offs**: Assumes standard objects and primitives without edge-case coercion.
 
 ---
 
+## 📈 Star History
 
+[![Star History Chart](https://star-history.com/#ishandutta2007/Awesome-Javascript-Utility-Libraries&Date)](https://star-history.com/#ishandutta2007/Awesome-Javascript-Utility-Libraries&Date)
 
-**Made for JavaScript developers, library authors, and teams choosing the right abstraction level for their utility needs.**  
+---
 
-Let's make JavaScript utility libraries more open, appropriately scoped, and bundle-conscious.
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help make this ecosystem guide even better:
+
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a descriptive feature branch** (`git checkout -b feature/add-new-utility`).
+3. 📝 **Add or update entries** following existing formatting guidelines (include star badges, official links, strengths, and trade-offs).
+4. 🚀 **Submit a Pull Request** with a brief summary of the project and why developers will benefit from it.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated collection useful, please consider:
+- ⭐ **Starring this repository** on GitHub to show your appreciation!
+- 🍴 **Forking and sharing** it with your developer network and teammates.
+- ☕ **Buying a coffee or sponsoring the project** via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007). Your support helps maintain, update, and expand this resource!
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list for informational and comparative purposes — not an endorsement.
+- **Evaluate bundle overhead**: Modern JavaScript (ES2024+) has absorbed many traditional utility helpers natively (`structuredClone()`, `Array.prototype.flat()`, `Object.groupBy()`). Always test bundle impact with tools like Bundlephobia before adding third-party dependencies.
+- **Prototype modification**: Libraries that extend native prototypes (like Sugar.js) should be used with caution in shared or multi-team enterprise environments.
+
+---
+
+**Made with ❤️ for JavaScript developers, open-source maintainers, and web architects.**
