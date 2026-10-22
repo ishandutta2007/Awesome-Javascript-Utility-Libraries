@@ -30,21 +30,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global web developer utilities and edge content delivery network (CDN) sector is estimated at **$27 billion to $37 billion**, projected to surpass $50+ billion over the next decade. The sector features a **dual market structure**: heavily concentrated at the global core edge infrastructure layer dominated by top hyperscalers and network providers, yet highly fragmented across specialized developer productivity, API tooling, search, and security utilities where agile, developer-first platforms compete vigorously.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **No dedicated SaaS platforms exist for JavaScript utility libraries.** These libraries are distributed as npm packages and run in the browser or Node.js—their purpose is to provide in-process code helpers, not hosted services. CDN providers (unpkg, jsDelivr) serve these packages but are not utility libraries themselves.
+| Platform | Category | Scale / Valuation | Pricing (Starting Tier) | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **Cloudflare** | Edge Delivery & Serverless Workers | $33.15B - $36.96B Valuation / $1.67B ARR | $5/month (Workers Paid plan) | 100,000 requests/day, 10ms CPU time/request, 1MB max script size |
+| **Postman** | API Development & Testing Utility | $5.60B Valuation / $313M ARR | $9/user/month (Solo plan, billed annually) | 1 user, unlimited collection runs & mock server executions, limited AI credits |
+| **Snyk** | Developer Security & Utility Scanning | $3.70B - $8.50B Valuation / $325M ARR | $25/developer/month (Team plan, 5 dev minimum) | 200 open-source tests/month, 100 code tests/month, 300 IaC tests/month |
+| **Sentry** | Application Performance & Error Utility | $3.00B Valuation / $120M ARR | $26/month (Team plan, billed annually) | 5,000 errors/month, 10,000 spans/month, 50 session replays/month, 1 user |
+| **Algolia** | Search & Discovery API Engine | $2.30B Valuation / $150M ARR | $0.50 per 1,000 additional search requests (Grow plan, $0 base) | 10,000 search requests/month, 50,000 records, 1GB index limit |
+| **Fastly** | Edge Cloud & Compute Utility | $1.32B - $1.50B Valuation / $544M ARR | $50/month (Developer/Production starter) | 100,000 requests/month, prototyping testing allowance |
+| **Wolfram Alpha** | Computational & Math API Engine | $100M parent valuation / $14.2M ARR | $50/month (Developer API tier) | 2,000 non-commercial API calls/month (non-commercial developer trial/hobbyist tier) |
+| **BunnyCDN (bunny.net)** | Edge Caching & Content Delivery | Bootstrapped Indie / ~$20M ARR | $1.00/month minimum account spend ($0.01/GB standard edge bandwidth) | 14-day free trial with up to 1 TB of traffic / $50 usage credit |
+| **APIVerve** | Cloud Math & Developer Utility API | Bootstrapped / <$5M ARR | $9.99/month (Basic plan, ~100k requests) | 200 requests/month forever |
 
 
 
